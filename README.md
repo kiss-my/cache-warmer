@@ -41,7 +41,7 @@ docker run kissmy/cache-warmer -t 1 -v -f /tmp/sitemap.xml
 Feel free to submit a PR or create an issue if you need this feature. 
 
 ## Available tags
-Check [our Docker Hub page](https://hub.docker.com/r/kissmy/cache-warmer) for available tags. There's always a `latest` tag available. 
+Check [our Docker Hub page](https://hub.docker.com/r/kissmy/cache-warmer) for available tags. There's always a `latest` tag available **that points to the master branch** 
 
 
 ## Contributing
