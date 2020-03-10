@@ -12,6 +12,7 @@ jobs:
     - name: Build, tag and publish Docker image
       uses: HurricanKai/Publish-Docker-Github-Action@master
       with:
+        name: kissmy/cache-warmer
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
         tagging: true
