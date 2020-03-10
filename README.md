@@ -25,7 +25,8 @@ Use the `-u` option to pass an URL.
 Separate multiple URL with commas: `-u url1,url2,url3`
 
 ```shell script
-docker run kissmy/cache-warmer -t 4 -v -u https://example.com/sitemapFR.xml,https://example.com/sitemapEN.xml,https://example.com/sitemapNL.xml
+docker run kissmy/cache-warmer \
+  -t 4 -v -u https://example.com/sitemapFR.xml,https://example.com/sitemapEN.xml,https://example.com/sitemapNL.xml
 ```
 
 ### With a local file
